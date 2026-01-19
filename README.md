@@ -1,4 +1,4 @@
-# Build a Semantic Book Recommender with LLMs – Full Course
+# Build a Semantic Book Recommender with LLMs
 
 For this project I used a dataset from kaggle: https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata/code
 
