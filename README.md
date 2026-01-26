@@ -1,11 +1,16 @@
-# Build a Semantic Book Recommender with LLMs
+# 📚 Semantic Book Recommender with LLMs
+This project leverages Large Language Models (LLMs) and Vector Databases to build a recommendation engine that understands the meaning behind book descriptions. 
 
-For this project I used a dataset from kaggle: https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata/code
+🌟 Key Features
+* Semantic Search: Find books by describing a plot, a feeling, or a specific topic in natural language.
+
+* Vectorized Knowledge: Uses OpenAI Embeddings to transform text into high-dimensional mathematical vectors.
+
+* Metadata Enrichment: Search results include rich data such as ISBN, publication year, and author information.
 
 🛠️ Setup and Installation
-1. Prerequisites
-* Python 3.9+
-* OpenAI API Key (with active credit balance)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
+[![OpenAI](https://img.shields.io/badge/node.js-18%2B-green)](https://nodejs.org/)
+[![LangGaph](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Pandas](https://img.shields.io/badge/uv-package%20manager-orange)](https://github.com/astral-sh/uv)
 
-* Text data cleaning (code in the notebook `notebooks/data-exploration.ipynb`)
-* Create the Vector Database (code in the notebook `notebooks/vector-search.ipynb`)
