@@ -33,5 +33,6 @@ This project uses Large Language Models (LLMs) and Vector Databases to build a r
    ```bash
    pip install langchain langchain-openai langchain-community chromadb pandas python-dotenv
 2. Create a .env file and add your key:
+    ```bash
+    OPENAI_API_KEY=your_api_key_here
 
-OPENAI_API_KEY=your_api_key_here
